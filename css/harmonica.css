@@ -1,0 +1,85 @@
+/* ********************************************
+    auteur: Sonja Rouwhorst
+    datum: 2016-10-19
+   ******************************************** */
+
+
+/* ****************************************
+    GENERAL STUFF
+   **************************************** */
+
+.cmda-harmonica-container,
+.cmda-harmonica-container * {
+    box-sizing: border-box;
+}
+
+.cmda-harmonica-container h3 {
+    line-height: 2rem;
+    padding: .375rem 2rem .375rem 1rem;
+    margin: 0px;
+    text-transform: none;
+}
+
+
+/* ****************************************
+    HARMONICA CONTAINER
+   **************************************** */
+
+.cmda-harmonica-container {
+    background-color: rgb(34, 31, 32);
+    margin-top: 20px;
+}
+
+
+/* ****************************************
+    HARMONICA ELEMENT HEADER
+   **************************************** */
+
+.cmda-harmonica-element header {
+    min-height: 2.5rem;
+    cursor: pointer;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cmda-harmonica-element:not(:first-of-type) header {
+    border-top: 20px solid white;
+}
+
+.cmda-harmonica-element header:after {
+    position: absolute;
+    top: calc(50% - .75rem);
+    right: .5rem;
+    content: "\25c0";
+    /* utf-8 code driehoek omlaag*/
+    -webkit-transition: .3s;
+    transition: .3s;
+    line-height: 1.5rem;
+    width: 2rem;
+    text-align: center;
+}
+
+.cmda-harmonica-element header.close-icon:after {
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+/* ****************************************
+    HARMONICA ELEMENT .UITKLAP
+   **************************************** */
+
+.cmda-harmonica-element .uitklap {
+    max-height: 0;
+    padding: 0 1em;
+    overflow: hidden;
+    -webkit-transition: max-height .3s ease-in-out, padding .3s ease-in-out;
+    transition: max-height .3s ease-in-out, padding .3s ease-in-out;
+}
+
+.cmda-harmonica-element header.close-icon + .uitklap {
+    max-height: 999px;
+}

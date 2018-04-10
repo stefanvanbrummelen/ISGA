@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Power of Community | Login</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/tabbar.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="webfonts/fonts.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Login</h1>
+        <p>You'll need to log in to create or join an activity.</p>
+    </header>
+
+    <form>
+        <fieldset>
+
+            <label for="student-name">Student mail address</label>
+            <input type="email" id="student-name" name="student" placeholder="sample@hva.nl" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="your password" required>
+
+        </fieldset>
+    </form>
+
+    <form method="get" action="profile.html">
+        <button type="submit">Log in</button>
+    </form>
+
+    <section class="register">
+        <p><a href="register.html">No account? Sign up here</a></p>
+        <p><a href="register.html">Forgot password?</a></p>
+    </section>
+
+    <footer>
+        <!-- Bron: www.weggeefcode.nl-->
+        <nav class="cmda-tabbar">
+            <ul>
+                <!-- vervang de teksten op de tabs -->
+                <!-- vervang de 'jouw url'-s door de url's van de pagina's waarnaar je wilt linken -->
+                <!-- door de class 'active' toe te kennen, kun je het uiterlijk van die tab aanpassen -->
+                <li><a href="login.html">Create</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="login.html">Profile</a></li>
+                <li><a href="info-fun.html">Info</a></li>
+                <!--  minder dan 5 tabs nodig - haal de tabs weg die je niet nodig hebt -->
+                <!-- nb. meer dan 5 tabs op een tabbar is geen goed idee -->
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

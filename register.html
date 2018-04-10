@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Power of Community | Register</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/tabbar.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="webfonts/fonts.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Register</h1>
+        <p>You'll need to log in to create or join an activity.</p>
+    </header>
+
+    <form>
+        <fieldset>
+
+            <label for="student-name">Student name</label>
+            <input type="email" id="student-name" name="student" placeholder="First- and Last name" required>
+
+            <label for="student-email-adress">Student email adres</label>
+            <input type="email" id="student-email-adress" name="studentemail" placeholder="example@hva.nl" required>
+
+            <label for="create-password">Create password</label>
+            <input type="password" id="create-password" name="createpassword" placeholder="Enter a password (min. 7 characters)" required>
+
+        </fieldset>
+    </form>
+
+    <form method="get" action="index2.html">
+        <button type="submit">Register</button>
+    </form>
+
+    <footer>
+        <!-- Bron: www.weggeefcode.nl-->
+        <nav class="cmda-tabbar">
+            <ul>
+                <!-- vervang de teksten op de tabs -->
+                <!-- vervang de 'jouw url'-s door de url's van de pagina's waarnaar je wilt linken -->
+                <!-- door de class 'active' toe te kennen, kun je het uiterlijk van die tab aanpassen -->
+                <li><a href="create.html">Create</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="profile.html">Profile</a></li>
+                <li><a href="info-fun.html">Info</a></li>
+                <!--  minder dan 5 tabs nodig - haal de tabs weg die je niet nodig hebt -->
+                <!-- nb. meer dan 5 tabs op een tabbar is geen goed idee -->
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

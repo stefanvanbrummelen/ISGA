@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'AvenirNext Bold';
+  src:	url('AvenirNext-Bold/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+  		url('AvenirNext-Bold/AvenirNext-Bold.woff') format('woff'),
+  		url('AvenirNext-Bold/AvenirNext-Bold.ttf')  format('truetype'),
+  		url('AvenirNext-Bold/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'AvenirNext Heavy';
+  src:	url('AvenirNext-Heavy/AvenirNext-Heavy.eot?#iefix') format('embedded-opentype'),
+  		url('AvenirNext-Heavy/AvenirNext-Heavy.woff') format('woff'),
+		url('AvenirNext-Heavy/AvenirNext-Heavy.ttf')  format('truetype'),
+		url('AvenirNext-Heavy/AvenirNext-Heavy.svg#AvenirNext-Heavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'DTLNobelTOT Bold';
+  src:	url('DTLNobelTOT-Bold.DTLNobelTOT-Bold.eot?#iefix') format('embedded-opentype'),
+  		url('DTLNobelTOT-Bold/DTLNobelTOT-Bold.otf')  format('opentype'),
+	    url('DTLNobelTOT-Bold/DTLNobelTOT-Bold.woff') format('woff'),
+		url('DTLNobelTOT-Bold/DTLNobelTOT-Bold.ttf')  format('truetype'),
+		url('DTLNobelTOT-Bold/DTLNobelTOT-Bold.svg#DTLNobelTOT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'LemonMilk';
+  src:	url('LemonMilk/LemonMilk.eot?#iefix') format('embedded-opentype'),
+  		url('LemonMilk/LemonMilk.otf')  format('opentype'),
+	   	url('LemonMilk/LemonMilk.woff') format('woff'),
+		url('LemonMilk/LemonMilk.ttf')  format('truetype'),
+		url('LemonMilk/LemonMilk.svg#LemonMilk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Light';
+  src: 	url('NeueHaasGrotesk-Light/NeueHaasGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Light/NeueHaasGrotesk-Light.woff') format('woff'),
+		url('NeueHaasGrotesk-Light/NeueHaasGrotesk-Light.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Light/NeueHaasGrotesk-Light.svg#NHaasGroteskDSW02-45Lt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Light Italic';
+  src: 	url('NeueHaasGrotesk-Light-Italic/NeueHaasGrotesk-Light-Italic.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Light-Italic/NeueHaasGrotesk-Light-Italic.woff') format('woff'),
+		url('NeueHaasGrotesk-Light-Italic/NeueHaasGrotesk-Light-Italic.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Light-Italic/NeueHaasGrotesk-Light-Italic.svg#NHaasGroteskDSW02-46LtIt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Regular';
+  src: 	url('NeueHaasGrotesk-Regular/NeueHaasGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Regular/NeueHaasGrotesk-Regular.woff') format('woff'),
+		url('NeueHaasGrotesk-Regular/NeueHaasGrotesk-Regular.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Regular/NeueHaasGrotesk-Regular.svg#NHaasGroteskDSW02-55Rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Medium';
+  src: 	url('NeueHaasGrotesk-Medium/NeueHaasGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Medium/NeueHaasGrotesk-Medium.woff') format('woff'),
+		url('NeueHaasGrotesk-Medium/NeueHaasGrotesk-Medium.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Medium/NeueHaasGrotesk-Medium.svg#NHaasGroteskDSW02-65Md') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Medium Italic';
+  src:	url('NeueHaasGrotesk-Medium-Italic/NeueHaasGrotesk-Medium-Italic.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Medium-Italic/NeueHaasGrotesk-Medium-Italic.woff') format('woff'),
+		url('NeueHaasGrotesk-Medium-Italic/NeueHaasGrotesk-Medium-Italic.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Medium-Italic/NeueHaasGrotesk-Medium-Italic.svg#NHaasGroteskDSW02-66MdIt') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NeueHaasGrotesk Bold';
+  src: 	url('NeueHaasGrotesk-Bold/NeueHaasGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+  		url('NeueHaasGrotesk-Bold/NeueHaasGrotesk-Bold.woff') format('woff'),
+		url('NeueHaasGrotesk-Bold/NeueHaasGrotesk-Bold.ttf')  format('truetype'),
+		url('NeueHaasGrotesk-Bold/NeueHaasGrotesk-Bold.svg#NHaasGroteskDSW02-75Bd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

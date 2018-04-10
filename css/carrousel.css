@@ -1,0 +1,104 @@
+/* CSS Document */
+/* auteur: Sanne 't Hooft */
+
+
+/*******************/
+/* MATEN EN MARGES */
+/*******************/
+
+/* breedte van de items in je carrousel */
+/* standaard 100% van de breedte  - 4em  */
+/* zo is altijd een stukje van het 2e item te zien */
+.cmda-carrousel > ul:first-of-type > li {	
+	min-width:calc(100% - 4rem);
+}
+
+/* ruimte tussen de items */
+/* standaard 1 em */
+.cmda-carrousel > ul:first-of-type > li:not(last-child) {
+	padding-right:1rem;
+}
+
+/* marge aan de linkerkant van de carrousel */
+/* standaard 1 em */
+.cmda-carrousel > ul:first-of-type > li:first-child {
+	padding-left:1rem;
+}
+/* marge aan de rechterkant van de carrousel */
+/* standaard 1 em */
+.cmda-carrousel > ul:first-of-type > li:last-child {
+	padding-right:1rem;
+}
+
+
+/***********/
+/* KLEUREN */
+/***********/
+
+/* de kleur van de bolletjes */
+.cmda-carrousel .cmda-bolletjes li {
+	background-color:rgb(153,153,153);
+}
+
+/* de kleur van het actieve bolletje */
+.cmda-carrousel .cmda-bolletjes li.active {
+	background-color:rgb(77,77,77);
+}
+
+
+
+
+
+
+/************/
+/* DE BASIS */
+/************/
+
+/* nb. Onderstaande regels alleen aanpassen als je snapt wat er staat */
+
+.cmda-carrousel > ul,
+.cmda-carrousel > ul > li {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+/* carrousel container */
+.cmda-carrousel > ul:first-of-type {
+	display:flex;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	-ms-overflow-style:none;
+	-webkit-overflow-scrolling:touch;
+}
+
+.cmda-carrousel > ul:first-of-type::-webkit-scrollbar {
+	width: 0 !important;
+	height: 0 !important;
+}
+
+/* carrousel items */
+.cmda-carrousel > ul:first-of-type > li {
+	box-sizing:content-box;
+}
+
+/* bolletjes */
+.cmda-carrousel .cmda-bolletjes {
+	padding:.5rem 0 .5rem;
+	display:flex;
+	justify-content:center;
+}
+
+.cmda-carrousel .cmda-bolletjes li {
+	margin:0 .25rem;
+	width:.5rem;
+	height:.5rem;
+	border-radius:50%;
+}
+
+/* carrousel items content container */
+.cmda-carrousel .my-content {
+	position:relative;
+	box-sizing:border-box;
+	overflow:hidden;
+}
